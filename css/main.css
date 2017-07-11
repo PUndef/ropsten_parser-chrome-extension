@@ -1,0 +1,28 @@
+#resultbox {
+    width: 100px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.button {
+    cursor: pointer;
+    margin: 20px auto;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    width: 80%;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.hiden_block {
+    display: none;
+}
+
+#hash_result {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 20px;
+}

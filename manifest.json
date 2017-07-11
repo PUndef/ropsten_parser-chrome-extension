@@ -1,0 +1,19 @@
+{
+  "name": "ropstenParser v.1.0",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Parser sites",
+  "permissions": [
+     "https://ropsten.etherscan.io/*"
+   ],
+//   "app": {
+//       "launch": {
+//          "local_path": "main.html"
+//       }
+//    },
+   "icons": { "52": "ether-52.png" },
+   "browser_action": {
+       "default_icon":  "ether-52.png",
+       "default_popup": "main.html"
+   }
+}
